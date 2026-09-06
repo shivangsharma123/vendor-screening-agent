@@ -1,0 +1,43 @@
+cluster_id,vendor_id,vendor_name,country,city,cluster_size,top_match_score,is_keeper
+C001,V0001,Alpha Consulting,India,Bangalore,2,100.0,Yes
+C001,V0002,Alpha Consulting Ltd.,India,Bangalore,2,100.0,No
+C002,V0003,ABC Pharma Services,India,Mumbai,2,100.0,Yes
+C002,V0004,Services ABC Pharma,India,Mumbai,2,100.0,No
+C003,V0007,Blue-Tech R&D,Germany,Munich,2,98.5,Yes
+C003,V0008,Bluetech R and D,Germany,Munich,2,98.5,No
+C004,V0009,Cognizant,India,Pune,2,100.0,Yes
+C004,V0010,Cognizant Technology Solutions,India,Pune,2,100.0,No
+C005,V0011,Parent Company,India,Hyderabad,2,100.0,Yes
+C005,V0012,Parent India Pvt Ltd,India,Hyderabad,2,100.0,No
+C006,V0013,Nexa Logistics,United Kingdom,London,2,100.0,Yes
+C006,V0014,Nexa Logistics Pvt Ltd,United Kingdom,London,2,100.0,No
+C007,V0015,GreenLeaf Trading,France,Lyon,2,97.1,Yes
+C007,V0016,Green Leaf Trading Ltd,France,Lyon,2,97.1,No
+C008,V0017,Orion Manufacturing,United States,Seattle,2,100.0,Yes
+C008,V0018,Manufacturing Orion GmbH,United States,Seattle,2,100.0,No
+C009,V0019,SkyBridge Telecom,Sweden,Gothenburg,2,88.3,Yes
+C009,V0020,Telecom Sky Bridge Technologies,Sweden,Gothenburg,2,88.3,No
+C010,V0023,Infosys Ltd.,India,,2,100.0,Yes
+C010,V0024,Infosys BPM Ltd,India,,2,100.0,No
+C011,V0027,VentureWorks Energy,UAE,Dubai,2,100.0,Yes
+C011,V0028,Energy VentureWorks Inc.,UAE,Dubai,2,100.0,No
+C012,V0029,HarborView Marine Services,Spain,Valencia,2,100.0,Yes
+C012,V0030,Marine Services HarborView Pvt Ltd,Spain,Valencia,2,100.0,No
+C013,V0031,CloudKite Security,Singapore,Singapore,2,100.0,Yes
+C013,V0032,Security CloudKite Technologies Ltd,Singapore,Singapore,2,100.0,No
+C014,V0033,SilverCrest Media Group,South Africa,Johannesburg,2,100.0,Yes
+C014,V0034,Media SilverCrest Group Pvt Ltd,South Africa,Johannesburg,2,100.0,No
+C015,V0035,Keystone Systems,United Kingdom,Manchester,2,100.0,Yes
+C015,V0036,Systems Keystone Technologies Inc.,United Kingdom,Manchester,2,100.0,No
+C016,V0037,Clearwater Dental Group,Ireland,Dublin,2,100.0,Yes
+C016,V0038,Dental Group Clearwater Ltd,Ireland,Dublin,2,100.0,No
+C017,V0039,Horizon Property Management,United Kingdom,Birmingham,2,100.0,Yes
+C017,V0040,Management Horizon Property Pvt Ltd,United Kingdom,Birmingham,2,100.0,No
+C018,V0041,Blackwood Industrial Supplies,Germany,Hamburg,2,100.0,Yes
+C018,V0042,Industrial Supplies Blackwood LLC,Germany,Hamburg,2,100.0,No
+C019,V0045,Vertex Foods,India,Ahmedabad,2,100.0,Yes
+C019,V0046,Foods Vertex Pvt Ltd,India,Ahmedabad,2,100.0,No
+C020,V0051,Zenith Consulting,Sweden,Stockholm,2,100.0,Yes
+C020,V0052,Consulting Zenith & Co.,Sweden,Stockholm,2,100.0,No
+C021,V0063,SilverCedar IT Services,India,Kolkata,2,92.6,Yes
+C021,V0085,SilverPeak IT Services,India,Pune,2,92.6,No

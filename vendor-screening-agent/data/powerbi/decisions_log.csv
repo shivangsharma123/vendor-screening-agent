@@ -1,0 +1,61 @@
+date,user,vendor_name,country,decision,match_percent,duplicate_prevented
+2026-08-18,M. Iyer,HarborView Marine Services,United States,Send to review,73,No
+2026-09-01,R. Gupta,IBM,India,Reuse existing,95,Yes
+2026-08-21,S. Nair,Services ABC Pharma,UAE,Reuse existing,94,Yes
+2026-09-01,R. Gupta,CloudMosaic Hosting,United Kingdom,Reuse existing,89,Yes
+2026-08-20,K. Patel,Telecom Sky Bridge Technologies,UAE,Reuse existing,91,Yes
+2026-08-18,A. Sharma,Foods Vertex Pvt Ltd,India,Reuse existing,92,Yes
+2026-08-23,S. Nair,Green Leaf Trading Ltd,Australia,Send to review,79,No
+2026-09-01,S. Nair,NovaLogistics,India,Reuse existing,99,Yes
+2026-08-17,M. Iyer,Google Ireland Limited,Ireland,Reuse existing,96,Yes
+2026-08-22,K. Patel,CoralPeak Retail Services,Sweden,Reuse existing,92,Yes
+2026-08-20,M. Iyer,GreenStone Foods Distribution,United Kingdom,Reuse existing,91,Yes
+2026-08-17,M. Iyer,TechVista Labs,France,Send to review,82,No
+2026-08-23,K. Patel,Google Ireland Limited,Ireland,Create new,34,No
+2026-08-22,K. Patel,Consulting Zenith & Co.,United Kingdom,Reuse existing,98,Yes
+2026-08-21,R. Gupta,Zenith Consulting,Australia,Reuse existing,89,Yes
+2026-08-19,M. Iyer,SkyHarbor Marine Supplies,UAE,Create new,28,No
+2026-08-23,R. Gupta,NovaLogistics,Spain,Create new,57,No
+2026-08-31,A. Sharma,GreenLeaf Trading,Sweden,Reuse existing,87,Yes
+2026-08-20,A. Sharma,Imports Saffron Trading LLP,Australia,Send to review,84,No
+2026-08-29,S. Nair,Alpha Consulting Ltd.,UK,Send to review,73,No
+2026-09-01,K. Patel,GreenLeaf Trading,Ireland,Reuse existing,98,Yes
+2026-08-20,K. Patel,Atlas Springs Healthcare,Banglore,Create new,20,No
+2026-08-31,K. Patel,NovaWave Telecom Services,Ireland,Reuse existing,99,Yes
+2026-08-21,M. Iyer,GraniteView Security,Ireland,Send to review,76,No
+2026-08-15,A. Sharma,GreenLeaf Trading,UAE,Create new,51,No
+2026-08-22,S. Nair,Parent Company,India,Reuse existing,89,Yes
+2026-08-17,M. Iyer,SilverPeak IT Services,Singapore,Create new,28,No
+2026-08-20,S. Nair,Amberstone Facilities,UAE,Create new,53,No
+2026-08-21,K. Patel,MapleEdge Construction,United States,Create new,45,No
+2026-08-18,A. Sharma,MedTech Apex Healthcare Ltd,India,Create new,34,No
+2026-09-01,M. Iyer,Alpha Consulting,India,Send to review,83,No
+2026-08-16,A. Sharma,Apex MedTech,India,Send to review,67,No
+2026-08-22,R. Gupta,Energy VentureWorks Inc.,Germany,Create new,62,No
+2026-09-02,R. Gupta,Orchid Supply Partners,France,Reuse existing,89,Yes
+2026-08-18,R. Gupta,Orchid Supply Partners,France,Reuse existing,91,Yes
+2026-08-18,K. Patel,Nexa Logistics Pvt Ltd,Singapore,Reuse existing,92,Yes
+2026-08-21,M. Iyer,Amberstone Facilities,India,Reuse existing,93,Yes
+2026-08-29,A. Sharma,MapleEdge Construction,France,Reuse existing,99,Yes
+2026-08-16,A. Sharma,Parent India Pvt Ltd,Canada,Reuse existing,99,Yes
+2026-08-20,R. Gupta,Energy VentureWorks Inc.,Sweden,Reuse existing,93,Yes
+2026-08-20,R. Gupta,Media SilverCrest Group Pvt Ltd,Luxembourg,Reuse existing,86,Yes
+2026-08-24,S. Nair,SilverPeak IT Services,Spain,Create new,64,No
+2026-08-19,M. Iyer,Bluetech R and D,Canada,Create new,38,No
+2026-08-16,A. Sharma,Stonecrest Supply Chain,Australia,Create new,23,No
+2026-08-31,S. Nair,Parent Company,India,Create new,23,No
+2026-09-03,M. Iyer,Consulting Zenith & Co.,France,Reuse existing,96,Yes
+2026-08-22,A. Sharma,Silverbridge Procurement,India,Send to review,84,No
+2026-09-02,K. Patel,VentureWorks Energy,France,Send to review,75,No
+2026-08-22,M. Iyer,GreenStone Foods Distribution,Australia,Reuse existing,92,Yes
+2026-08-29,A. Sharma,Alpha Consulting Ltd.,United Arab Emirates,Reuse existing,100,Yes
+2026-09-02,S. Nair,Energy VentureWorks Inc.,Ireland,Send to review,67,No
+2026-08-19,A. Sharma,Security CloudKite Technologies Ltd,UAE,Reuse existing,100,Yes
+2026-08-20,S. Nair,SilverKite Security Services,United Kingdom,Reuse existing,99,Yes
+2026-08-31,K. Patel,SilverPeak IT Services,United Kingdom,Send to review,82,No
+2026-08-23,A. Sharma,SkyHarbor Marine Supplies,France,Reuse existing,100,Yes
+2026-08-23,M. Iyer,CoralBridge Consulting,Spain,Reuse existing,95,Yes
+2026-08-23,K. Patel,Blue-Tech R&D,India,Reuse existing,93,Yes
+2026-08-28,A. Sharma,Apex MedTech,Ireland,Send to review,66,No
+2026-08-23,R. Gupta,WillowRiver Consulting,Singapore,Reuse existing,97,Yes
+2026-09-01,A. Sharma,UrbanPulse Marketing Group,Sweden,Create new,27,No

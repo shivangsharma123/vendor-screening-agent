@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vendor Screening Agent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css?v=9">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">✓</span>
+    <div>
+      <div class="brand-name">Vendor Screening Agent</div>
+      <div class="brand-sub">Find duplicate suppliers before you add them</div>
+    </div>
+  </div>
+  <div class="legend">
+    <span><i class="dot d"></i>Already exists</span>
+    <span><i class="dot r"></i>Worth a review</span>
+    <span><i class="dot n"></i>Looks new</span>
+    <span class="org">Novo Nordisk &middot; Student AI Project</span>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- ---------------- Sidebar ---------------- -->
+  <aside class="sidebar">
+    <h2>Check a supplier</h2>
+    <p class="hint">Type a company name and location. We check your existing
+      suppliers and public company records, then tell you whether it already
+      exists or is safe to add.</p>
+
+    <form id="searchForm" autocomplete="off">
+      <div class="field">
+        <label for="vendor_name">Company name</label>
+        <input id="vendor_name" required placeholder="e.g. Cognizant Technology">
+      </div>
+      <div class="field">
+        <label for="country">Location</label>
+        <input id="country" required placeholder="e.g. India">
+      </div>
+      <div class="field">
+        <label for="website">Website <span class="opt">optional</span></label>
+        <input id="website" placeholder="e.g. cognizant.com">
+      </div>
+      <div class="field">
+        <label for="tax_id">Tax ID / VAT <span class="opt">optional</span></label>
+        <input id="tax_id" placeholder="e.g. IE6388047V (EU VAT)">
+      </div>
+      <button class="submit" type="submit" id="submitBtn">Check now</button>
+    </form>
+
+    <div class="demo">
+      <div class="demo-label">Try an example</div>
+      <div class="chips" id="demoChips">
+        <button class="chip" type="button" data-n="Cognizant" data-c="India">Cognizant</button>
+        <button class="chip" type="button" data-n="IBM" data-c="United States">IBM</button>
+        <button class="chip" type="button" data-n="Infosys" data-c="India">Infosys</button>
+        <button class="chip" type="button" data-n="Alpha Consulting" data-c="India">Alpha Consulting</button>
+        <button class="chip" type="button" data-n="Google Ireland" data-c="Ireland" data-t="IE6388047V">Google (live VAT ✓)</button>
+      </div>
+    </div>
+
+    <details class="panel" id="decisionsPanel">
+      <summary>Recent decisions</summary>
+      <div id="decisionsList" class="decisions-list"><p class="muted-note">No decisions yet.</p></div>
+    </details>
+
+    <p class="foot">Checks your supplier list and public company registries.
+      A web search runs only when nothing clear is found.</p>
+  </aside>
+
+  <!-- ---------------- Results ---------------- -->
+  <main class="results" id="resultsPane">
+    <div class="empty">
+      <span class="empty-icon">🔍</span>
+      <h3>Ready to check</h3>
+      <p>Type a company name and location, or tap an example,<br>
+         to see if the supplier already exists.</p>
+    </div>
+  </main>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="/static/app.js?v=9"></script>
+</body>
+</html>

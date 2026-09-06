@@ -1,0 +1,54 @@
+========================================================
+  VENDOR SCREENING AGENT  -  START HERE (Windows)
+  Super simple. Never used a terminal? No problem.
+========================================================
+
+STEP 1 - Install Python (only once, ~3 minutes)
+------------------------------------------------
+ 1. Go to:  https://www.python.org/downloads/
+ 2. Click the big "Download Python" button.
+ 3. Open the downloaded file.
+ 4. VERY IMPORTANT: on the first screen, TICK the box
+       [x] Add Python to PATH
+    then click "Install Now".
+ 5. When it finishes, click Close.
+
+ (If Python is already installed, skip this step.)
+
+
+STEP 2 - Unzip this project
+---------------------------
+ - Right-click "vendor-screening-agent.zip"  ->  Extract All  ->  Extract.
+
+
+STEP 3 - Run it (just double-click)
+-----------------------------------
+ - Open the unzipped "vendor-screening-agent" folder.
+ - Double-click  run.bat
+ - A window will open, install a few things (first time only),
+   then your web browser will open the app automatically.
+
+ That's it! The app opens at:  http://127.0.0.1:8000
+
+
+TO STOP THE APP
+---------------
+ - Close the black "SERVER" window that opened.
+
+
+IF SOMETHING GOES WRONG
+-----------------------
+ - "Python is NOT installed" message?  -> Do STEP 1 again and make
+   sure you ticked "Add Python to PATH", then double-click run.bat.
+ - Browser page shows an error?  -> Wait 5 seconds and refresh (F5).
+ - Need internet the first time (to download the parts it needs and
+   to check company registries).
+
+
+HOW TO USE IT (once it's open)
+------------------------------
+ - Type a company name and location, or click an example chip
+   (Cognizant, IBM, Infosys, Google live VAT).
+ - It tells you if the supplier already exists or is new.
+ - See DEMO_EXAMPLES.md for ready-made examples to try.
+ - See GUIDE.md for the full, friendly explanation.
